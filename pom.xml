@@ -1,9 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>org.orbisgis</groupId>
-  <artifactId>orbisgis-plugin-archetype</artifactId>
-  <name>orbisgis-plugin-archetype</name>
-  <version>1.0.1</version>
-  <packaging>jar</packaging>
+        <modelVersion>4.0.0</modelVersion>
+        <groupId>org.orbisgis</groupId>
+        <artifactId>orbisgis-plugin-archetype</artifactId>
+        <name>orbisgis-plugin-archetype</name>
+        <version>1.0.1</version>
+        <packaging>jar</packaging>
+  
+        <distributionManagement>
+                <repository>
+                        <id>IRSTV</id>
+                        <name>IRSTV repository</name>
+                        <url>sftp://irstv@www.orbisgis.org:/var/www/repo.orbisgis.org/htdocs</url>
+                </repository>
+        </distributionManagement>
 </project>
