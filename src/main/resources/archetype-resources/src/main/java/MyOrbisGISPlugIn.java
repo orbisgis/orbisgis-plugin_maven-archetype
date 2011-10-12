@@ -4,7 +4,7 @@ import org.orbisgis.core.ui.pluginSystem.AbstractPlugIn;
 import org.orbisgis.core.ui.pluginSystem.PlugInContext;
 import org.orbisgis.core.ui.pluginSystem.workbench.Names;
 
-public class MyPlugIn extends AbstractPlugIn {
+public class MyOrbisGISPlugIn extends AbstractPlugIn {
 
         @Override
         public void initialize(PlugInContext context) throws Exception {

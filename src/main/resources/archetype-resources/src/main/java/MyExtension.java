@@ -7,6 +7,6 @@ public class MyExtension extends Extension {
 
         @Override
         public void configure(PlugInContext context) throws Exception {
-                new MyPlugIn().initialize(context);
+                new MyOrbisGISPlugIn().initialize(context);
         }
 }

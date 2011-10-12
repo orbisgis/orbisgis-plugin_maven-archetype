@@ -4,7 +4,7 @@
         <groupId>org.orbisgis</groupId>
         <artifactId>orbisgis-plugin-archetype</artifactId>
         <name>orbisgis-plugin-archetype</name>
-        <version>1.0.1</version>
+        <version>1.0.2</version>
         <packaging>jar</packaging>
   
         <distributionManagement>
