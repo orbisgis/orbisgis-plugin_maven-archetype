@@ -1,9 +1,9 @@
-Maven archetype for an OrbisGIS 4.0 OSGI plugin bundle.
+Maven archetypes for an OrbisGIS 4.0 OSGI plugin bundle.
 =====
 
 A set of maven archetypes to help the creation of plugins for OrbisGIS 4.0
 
-** OrbisGIS OSGI Minimal Bundle Archetype
+## OrbisGIS OSGI Minimal Bundle Archetype
 
 osgi-minimal contain the archetype to write a osgi plugin without any
  dependencies with OrbisGIS.

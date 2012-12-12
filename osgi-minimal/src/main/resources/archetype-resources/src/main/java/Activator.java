@@ -15,7 +15,7 @@ public class Activator implements BundleActivator {
         @Override
         public void start(BundleContext bc) throws Exception {
                 /*
-                bc.registerService(ServiceClass.class.getName(),
+                bc.registerService(ServiceClass.class,
                         new ServiceImplementation(),
                         null);
                 */
