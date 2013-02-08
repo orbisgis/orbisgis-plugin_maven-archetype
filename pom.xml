@@ -13,6 +13,7 @@
         <url>http://www.orbisgis.org</url>
         <modules>
                 <module>osgi-minimal</module>
+                <module>osgi-sql</module>
         </modules>
         <properties>
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
