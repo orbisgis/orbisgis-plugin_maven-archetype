@@ -1,2 +1,3 @@
-/target/
-/osgi-minimal/target/
+*/target/
+*.iml
+.idea/
