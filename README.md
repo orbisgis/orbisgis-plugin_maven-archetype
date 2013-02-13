@@ -15,7 +15,7 @@ This is a good starting point if you plan to split your plugin into two pieces :
 The first part can be created from this maven archetype. The second part would
  be created from GDMS archetype for exemple to write one or more custom SQL function(s).
  
- ## OrbisGIS OSGi SQL Bundle Artchetype
+## OrbisGIS OSGi SQL Bundle Artchetype
  
- osgi-sql contain the archetype to write your own SQL function and to expose it as a new service.
+osgi-sql contain the archetype to write your own SQL function and to expose it as a new service.
  OrbisGIS will be noticed of this user-defined SQL function and add it in the current GDMS SQL Engine.
