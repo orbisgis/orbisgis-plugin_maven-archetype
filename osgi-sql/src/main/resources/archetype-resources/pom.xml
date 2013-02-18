@@ -24,6 +24,14 @@
             </plugin>
         </plugins>
     </build>
+            <repositories>
+                <repository>
+                        <id>irstv</id>
+                        <name>IRSTV repository</name>
+                        <url>http://repo.orbisgis.org</url>
+                </repository>
+        </repositories>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
