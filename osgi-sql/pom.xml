@@ -14,6 +14,14 @@
         <description>
             Archetype for writing OSGI Bundle for GDMS in order to add new SQL functions.
         </description>
+        <repositories>
+                <repository>
+                        <id>irstv</id>
+                        <name>Orbisgis repository</name>
+                        <url>http://repo.orbisgis.org</url>
+                </repository>
+        </repositories>
+
         <distributionManagement>
                 <repository>
                         <id>IRSTV</id>
