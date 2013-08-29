@@ -8,6 +8,11 @@
 
   <name>H2 Spatial Plugin Archetype</name>
 
+<parent>
+    <artifactId>osgi-archetypes</artifactId>
+    <groupId>org.orbisgis</groupId>
+    <version>1.0-SNAPSHOT</version>
+</parent>
   <build>
     <extensions>
       <extension>
