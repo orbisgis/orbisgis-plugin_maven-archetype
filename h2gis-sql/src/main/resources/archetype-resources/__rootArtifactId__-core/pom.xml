@@ -39,7 +39,7 @@
         <dependency>
             <groupId>org.h2gis</groupId>
             <artifactId>h2spatial-api</artifactId>
-            <version>0.1.1</version>
+            <version>1.0.2</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -49,7 +49,7 @@
         <dependency>
             <groupId>org.h2gis</groupId>
             <artifactId>h2spatial-ext</artifactId>
-            <version>0.1.1</version>
+            <version>1.0.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
