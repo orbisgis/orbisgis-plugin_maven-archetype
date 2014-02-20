@@ -12,8 +12,15 @@
     <fileSet encoding="UTF-8" packaged="true">
       <directory>src/main/resources</directory>
       <includes>
-        <include>**/*.png</include>
+        <include>message_small.png</include>
+        <include>i18n.properties</include>
       </includes>
     </fileSet>
+    <fileSet encoding="UTF-8" packaged="false">
+        <directory>src/main/resources</directory>
+        <includes>
+            <include>message.png</include>
+        </includes>
+  </fileSet>
   </fileSets>
 </archetype-descriptor>

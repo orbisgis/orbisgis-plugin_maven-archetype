@@ -43,13 +43,14 @@ import org.xnap.commons.i18n.I18nFactory;
 
 import javax.swing.ImageIcon;
 import java.awt.event.ActionEvent;
+import java.util.Locale;
 
 /**
  * Toc tool that shows layer count in console.
  */
 public class HelloWorldTool extends DefaultAction {
     // Translation tool
-    private static final I18n I18N = I18nFactory.getI18n(HelloWorldTool.class);
+    private static final I18n I18N = I18nFactory.getI18n(HelloWorldTool.class, Locale.getDefault(), I18nFactory.FALLBACK);
     // Prepend logger with popup in order to show the message in the popup frame
     private static final Logger LOGGER = LoggerFactory.getLogger("popup."+HelloWorldTool.class);
     private TocExt tocExt;
@@ -60,7 +61,7 @@ public class HelloWorldTool extends DefaultAction {
      */
     public HelloWorldTool(TocExt tocExt) {
         super("A_PRINT_LAYERCOUNT", I18N.tr("Print layer count"),
-                new ImageIcon(HelloWorldTool.class.getResource("print.png")));
+                new ImageIcon(HelloWorldTool.class.getResource("message_small.png")));
         this.tocExt = tocExt;
     }
 
