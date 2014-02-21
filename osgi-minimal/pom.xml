@@ -12,15 +12,10 @@
         </parent>
         <description>
             Base archetype for writing OSGI Bundle for OrbisGIS.
-            Do not reference any service.
+            Does not reference any service.
         </description>
         <build>
                 <extensions>
-                        <extension>
-                                <groupId>org.apache.maven.wagon</groupId>
-                                <artifactId>wagon-ssh</artifactId>
-                                <version>2.2</version>
-                        </extension>
                         <extension>
                             <groupId>org.apache.maven.archetype</groupId>
                             <artifactId>archetype-packaging</artifactId>
