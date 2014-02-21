@@ -19,6 +19,7 @@
                 <module>osgi-minimal</module>
                 <module>osgi-sql</module>
                 <module>h2gis-sql</module>
+                <module>orbisgis-toc-menu</module>
         </modules>
         <properties>
                 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
