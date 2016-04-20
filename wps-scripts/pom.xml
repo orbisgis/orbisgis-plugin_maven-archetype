@@ -1,0 +1,54 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>wps-scripts</artifactId>
+    <name>OrbisGIS WPS scripts package Archetype</name>
+    <version>1.0.0</version>
+    <packaging>maven-archetype</packaging>
+    <parent>
+        <artifactId>osgi-archetypes</artifactId>
+        <groupId>org.orbisgis</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <description>
+        Archetype for the packaging of WPS scripts to make them loadable by the OrbisGIS WPS service.
+    </description>
+    <build>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.archetype</groupId>
+                <artifactId>archetype-packaging</artifactId>
+                <version>2.2</version>
+            </extension>
+        </extensions>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.felix</groupId>
+                    <artifactId>maven-scr-plugin</artifactId>
+                    <version>1.15.0</version>
+                    <executions>
+                        <execution>
+                            <id>generate-scr-scrdescriptor</id>
+                            <goals>
+                                <goal>scr</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-archetype-plugin</artifactId>
+                    <version>2.2</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+    <repositories>
+        <repository>
+            <id>OrbisGIS</id>
+            <name>OrbisGIS repository</name>
+            <url>http://repo.orbisgis.org</url>
+        </repository>
+    </repositories>
+</project>
