@@ -70,19 +70,19 @@
         </dependency>
         <dependency>
             <groupId>org.orbisgis</groupId>
-            <artifactId>wps-service</artifactId>
+            <artifactId>service-api</artifactId>
             <version>5.1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.orbisgis</groupId>
-            <artifactId>wps-groovy-api</artifactId>
+            <artifactId>service</artifactId>
             <version>5.1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>org.orbisgis</groupId>
-            <artifactId>wps-client</artifactId>
+            <artifactId>client-api</artifactId>
             <version>5.1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
